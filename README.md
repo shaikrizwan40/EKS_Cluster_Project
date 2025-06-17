@@ -92,7 +92,7 @@ helm upgrade -i aws-load-balancer-controller eks/aws-load-balancer-controller \
 ### Check pods:
 ```
 kubectl get pods -n kube-system
-kubectl get pods -n game-2048
+
 ```
 
 ### Get Ingress:
